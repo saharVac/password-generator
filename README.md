@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Password Generator
 
 This password generator takes into consideration the possible character types you might want in your password: uppercase, lowercase, numeric and special characters. I wrote the function that generates the password. I learned how I should work with prompts and confirms when taking in user input.
 
