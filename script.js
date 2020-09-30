@@ -59,7 +59,6 @@ function generatePassword() {
   for (let i = 0; i < length; i++) {
     // get random index from desired characters
     var ind = Math.floor(Math.random() * desiredChars.length);
-    console.log(desiredChars.length);
     // add character to password
     pass += desiredChars[ind];
   }
