@@ -29,25 +29,26 @@ function generatePassword() {
     if (confirm("Include lowercase characters?")) {
       includeLower = true;
       // include lowercase
-      desiredChars.concat(["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]);
+      desiredChars.push(["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]);
+      console.log(desiredChars);
     }
 
     // does the user want uppercase characters?
     if (confirm("Include uppercase characters?")) {
       includeUpper = true;
       // include uppercase
-      desiredChars.concat(["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]);
+      desiredChars.push(["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]);
     }
     // does the user want numeric characters?
     if (confirm("Include numeric characters?")) {
       includeNumeric = true;
       // include numeric
-      desiredChars.concat(["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]);
+      desiredChars.push(["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]);
     }
     // does the user want special characters?
     includeSpecial = confirm("Include special characters?");
     // include special
-    desiredChars.concat([" ", "!",
+    desiredChars.push([" ", "!",
       '"', "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "^", "_", "`", "{", "|", "}", "~"]);
   }
 
@@ -62,7 +63,7 @@ function generatePassword() {
       pass += desiredChars[ind];
   }
 
-  return desiredChars;
+  return pass;
 }
 
 // Write password to the #password input
