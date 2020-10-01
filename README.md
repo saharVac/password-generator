@@ -29,3 +29,6 @@ Page is easily navigable, refer to the following gif and screenshots:
 
 I used this page to get a full list of special characters:
 https://owasp.org/www-community/password-special-characters
+
+The following helped me put images onto this README:
+https://guides.github.com/features/mastering-markdown/
