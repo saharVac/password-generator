@@ -14,7 +14,18 @@ https://saharvac.github.io/password-generator/
 
 Page is easily navigable, refer to assets folder for screenshots the walk-through gif.
 
+![walkthrough gif](assets/walkthrough.gif)
+
+![screenshot](assets/1.png)
+![screenshot](assets/2.png)
+![screenshot](assets/3.png)
+![screenshot](assets/4.png)
+![screenshot](assets/5.png)
+![screenshot](assets/6.png)
+![screenshot](assets/7.png)
+![screenshot](assets/8.png)
+
 ## Website used
 
-I used this page to get a full list of special characters: 
+I used this page to get a full list of special characters:
 https://owasp.org/www-community/password-special-characters
