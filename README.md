@@ -12,7 +12,7 @@ https://saharvac.github.io/password-generator/
 
 ## Running the application
 
-Page is easily navigable, refer to assets folder for screenshots the walk-through gif.
+Page is easily navigable, refer to the following gif and screenshots:
 
 ![walkthrough gif](assets/walkthrough.gif)
 
